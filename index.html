@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="John Morah"/>
+    <title>Azubros Commercial Enterprises</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <div id="AZ"><div id="logo"><a href="azubros.html"><img src="images/logo.jpg" alt"logo"></a></div><p id="big">AZUBROS GROUP<br><p id="small"> AZUBROS COMMERCIAL ENTERPRISES (NIG.) LIMITED</p></P></div>
+  </header>
+<nav>
+  <div class="main-nav">
+    <ul>
+      <li><a href="azubros.html">Home</a></li>
+      <li><a href="azubros.kano.html">Kano</a></li>
+      <li><a href="azubros.lagos.html">Lagos</a></li>
+      <li><a href="azubros.anambra.html">Anambra</a></li>
+      <li><a href="azubros.abuja.html">Abuja</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+
+    </ul>
+  </div>
+
+</nav>
+<body>
+  <div class="home-body">
+      <div id="slide" style="max-width:500px">
+        <img class="mySlides" src="images/JC125A.jpg" style="width:100%">
+        <img class="mySlides" src="images/cable.jpg" style="width:100%">
+        <img class="mySlides" src="images/tea.jpg" style="width:100%">
+        <img class="mySlides" src="images/keke.jpg" style="width:100%">
+      </div>
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+      </script>
+
+      <div id="CP">
+        <h1>Company Profile</h1>
+
+        <p>AZUBROS COMMERCIAL ENTERPRISE started up about 3 decades ago, business concerned with the automotive industry which initially started off with trading of motorcycle auto spare parts in Kano Nigeria, then further evolved into retail sale of commercial motorcycles. With 17 years into the retail business, the company moved onto importation of it branded motorcycles named “KINGCHENG” from China. The company engages in sales of its branded motorcycles and motorcycles shoe brakes in other region of the country, she is also a major distributor of other imported automotive brands nmaely; Jincheng, suzuki, Honda, and Bajaj.</p>
+      </div>
+      <div id="HB">
+        1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div id="HC">
+        1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+  </div>
+<footer>
+  1Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.;
+</footer>
+</body>
+</html>
